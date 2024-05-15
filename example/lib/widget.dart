@@ -8,10 +8,6 @@ class MixpanelButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      style: ElevatedButton.styleFrom(
-        primary: Color(0xff4f44e0), // background
-        onPrimary: Colors.white, // foreground
-      ),
       onPressed: onPressed,
       child: Text(text),
     );
